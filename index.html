@@ -3,9 +3,16 @@
     <head> 
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
-        <title>My Resume</title>
+        <title>My Resume</title> 
+        <style>
+            img{ 
+                width: 100px; 
+                height: auto;
+            }
+        </style>
     </head> 
-    <body> 
+    <body>  
+        <img src="C:\Users\madhu\Downloads\m pho.jpg" alt="LAVETI MADHUBABU"> 
         <header>
             <h1>summary</h1> 
             <p>To secure a challenging position in a reputable organisation  to expand my learnings and skills</p>
@@ -42,14 +49,14 @@
         </section> 
         <section>
             <h2>SKILLS</h2> 
-            <UL> 
+            <ol> 
                 <LI>PYTHON
                     SQL
                     HTML 
                     CSS 
                     C(BASICS)
                 </LI>
-            </UL>
+            </ol>
         </section> 
         <section> 
             <H2>CERTIFICATIONS/ACHIVEMENTS</H2> 
@@ -63,17 +70,16 @@
                 <li>Working as senior body member of ISTE student chapter,srkrec</li>
             </ul>
         </section> 
-        <img src="C:\Users\madhu\Downloads\m pho.jpg" alt="LAVETI MADHUBABU"> 
-        <section> 
-            <H2>HOBBIES</H2> 
-            <P>Listening music </P> 
+        <section id="hobbies"> <!-- Added id attribute -->
+            <h2>HOBBIES</h2> 
+            <p>Listening music</p> 
             <p>GYM</p>
-        </section> 
-        <section>
-            <H2>CONTACT ME</H2> 
-            <P>EMAIL: madhulaveti2020@gmail.com</P> 
-            <p>phone :7660856454</p>
-        </section>
+        </section>          
+        <section id="contact"> <!-- Added id attribute -->
+            <h2>CONTACT ME</h2> 
+            <p>EMAIL: madhulaveti2020@gmail.com</p> 
+            <p>phone: 7660856454</p>
+        </section>       
         <button onclick="location.href='#hobbies'">My Hobbies</button>
         <button onclick="location.href='#contact'">Contact Me</button>
     </body>
